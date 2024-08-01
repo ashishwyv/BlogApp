@@ -14,7 +14,6 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
                     <Editor
                         initialValue={defaultValue}
                         init={{
-                            apiKey: "14a7t28ggm1lesswa4i97d0nqdkegyjmvst81t9e0oexyp4h",
                             initialValue: defaultValue,
                             height: 500,
                             menubar: true,
